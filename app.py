@@ -9,5 +9,11 @@ def hello_world():
 def hello_world1():
     return 'Hello, another route!'
 
+@app.route('/1')
+def hello_world1():
+    return 'Hello, another route!'
+
+
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=2100)
+
